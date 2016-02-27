@@ -1,0 +1,73 @@
+h1.judul{
+
+		font-family: "Segoe UI",Frutiger,Frutiger Linotype,Dejavu Sans,Helvetica Neue,Arial,sans-serif;
+		font-size: 100px;
+		line-height: 25px;
+	}
+
+h2.subjudul{
+
+		font-family: "Segoe UI",Frutiger,Frutiger Linotype,Dejavu Sans,Helvetica Neue,Arial,sans-serif;
+		font-weight: normal;
+	}
+
+h2.judul{
+
+		font-family: "Segoe UI",Frutiger,Frutiger Linotype,Dejavu Sans,Helvetica Neue,Arial,sans-serif;
+		font-weight: bold;
+		font-size: 30px;
+		line-height: 25px;
+	}
+
+
+div.latarjudul {
+    padding: 6% 0;
+    background-color: steelblue;
+
+    -webkit-animation-name: gantiwarna; 
+    -webkit-animation-duration: 4s; 
+    animation-name: gantiwarna;
+    animation-duration: 4s;
+ 
+}
+
+
+@-webkit-keyframes gantiwarna {
+    from {background-color: darkslateblue;}
+    to {background-color: steelblue;}
+}
+
+
+@keyframes gantiwarna {
+    from {background-color: darkslateblue;}
+    to {background-color: steelblue;}
+}
+
+
+
+
+p.deskripsi {
+	font-family: "Segoe UI",Frutiger,Frutiger Linotype,Dejavu Sans,Helvetica Neue,Arial,sans-serif;
+	font-weight: bold;
+	font-size: 20px;
+	padding: 50px;
+	margin-left: 100px;
+	margin-right: 100px;
+	background: #eee;
+}
+
+hr {
+    display: block;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-style: inset;
+    border-width: 1px;
+    color:#DCDCDC;
+} 
+
+img.tombolprofil{
+	margin: 20px 20px 20px 20px;
+	width:16%;
+	height:180px;	
+}
+
