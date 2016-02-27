@@ -55,8 +55,8 @@ h3 {
 	font-size: 25px;
 	font-style: normal;
 	font-variant: normal;
-	text-align:center;
 }
+
 
 p.biasa {
     font-weight: normal;
@@ -68,12 +68,36 @@ p {
 	font-style: normal;
 	font-variant: normal;
 	font-weight: 500;
-	line-height: 20px;
+	line-height: 25px;
 }
 
 img.fotoprofil{
 	width:446px;
 	height:370px;	
+}
+
+table, th, td {
+    border : solid 1px  lightsteelblue; 
+    border-collapse: collapse;
+}
+th, td {
+    padding: 10px;
+    }
+
+table.biodata{
+	width:calc(100% - 100px);
+	border: 1px;
+	background-color: #eee;
+}
+
+tr:nth-child(even) {
+    background-color: #fff;
+    padding: 12px;
+}
+
+td{
+	font-family: "Segoe UI",Frutiger,Frutiger Linotype,Dejavu Sans,Helvetica Neue,Arial,sans-serif;
+	font-size: 18px;
 }
 
 </style>
@@ -82,18 +106,42 @@ img.fotoprofil{
 <body>
 	<div>
 		<h1 class="tebal">YOSEF BRIAN YUDHALAKSANA</h1>	
-		<h3 class="tebal" style="color: gold">13/348204/TK/40821</h3>
+		<h3 class="tebal" style="color: dodgerblue; text-align:center;">KELOMPOK F</h3>
 	<div>
 <br>
 <hr>
 <br>
 	<div>
 		<div class="kiri">
-		<img align="left" style="float: left;" class="fotoprofil" src="gambar/foto_yudha.jpg" alt="foto profil">
+				<img align="left" style="float: left;" class="fotoprofil" src="gambar/foto_yudha.jpg" alt="foto profil">
 		</div>
 		<div class="tengah">
-		<p style="margin-right: 100px" align="left"> Nama Saya Yosef Brian Yudhalaksana, Saya biasa dipanggil Yudha. Saya adalah mahasiswa S1 di Departemen Teknik Elektro dan Teknologi Informasi Universitas Gadjah Mada. Saat ini saya sedang menempuh semester ke-6. </p>
-		<div>
+				<p style="margin-right: 100px" align="left"> Nama Saya Yosef Brian Yudhalaksana, Saya biasa dipanggil Yudha. Saya adalah mahasiswa S1 di Departemen Teknik Elektro dan Teknologi Informasi Universitas Gadjah Mada. Saat ini saya sedang menempuh semester ke-6. </p>
+			<div>
+				<h3 class="biasa" style="font-size: 22px">BIODATA	:</h3>
+
+				<table class="biodata">
+					<tr align="center">
+					  
+					    <td><b>Nama<b></td>
+					    <td><b>NIM<b></td>
+					    <td><b>Prodi<b></td>
+					    <td><b>Email<b></td>
+					   
+					</tr>
+					<tr align="center">
+					    <td>Yosef Brian Yudhalaksana</td>
+					    <td>13/348204/TK/40821</td>
+					    <td>Teknologi Informasi</td>
+					    <td>yosefbrian@gmail.com</td>
+					</tr>
+				</table> 
+			</div>
+			<div>
+				
+			</div>
+		
+		</div>
 	</div>
 
 	</body>
