@@ -51,18 +51,30 @@ h2.judul{
 
 
 div.latarjudul {
-    padding: 6% 0;
-    background-color: steelblue;
 
-    -webkit-animation-name: gantiwarna; 
+	/*border: 10px;
+*/
+    padding: 6% 0;
+
+    background: url("back.jpg");
+
+    background-repeat: no-repeat;
+     background-origin: border-box;
+     background-size: 100%;
+
+/*    -webkit-animation-name: gantiwarna; 
     -webkit-animation-duration: 4s; 
     animation-name: gantiwarna;
-    animation-duration: 4s;
+    animation-duration: 4s;*/
  
 }
 
+/*#latar {
+background: url(gambar/back.jpg);
 
-@-webkit-keyframes gantiwarna {
+}*/
+
+/*@-webkit-keyframes gantiwarna {
     from {background-color: darkslateblue;}
     to {background-color: steelblue;}
 }
@@ -72,7 +84,7 @@ div.latarjudul {
     from {background-color: darkslateblue;}
     to {background-color: steelblue;}
 }
-
+*/
 
 
 

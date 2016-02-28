@@ -2,12 +2,138 @@
 
 <head>
 <link rel="stylesheet" href="css/stylehalamanutama.css">
-<style type="text/css">
+<style>
 
-div{
+  
+
+  .parallax {
+    height: 500px; 
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    -webkit-perspective: 300px;
+    perspective: 300px;
+  }
+
+  .parallax__group {
+    position: relative;
+    height: 500px; 
+    height: 100vh;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+  }
+
+  .parallax__layer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+
+  .parallax__layer--fore {
+    -webkit-transform: translateZ(90px) scale(.7);
+    transform: translateZ(90px) scale(.7);
+    z-index: 1;
+  }
+
+  .parallax__layer--base {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    z-index: 4;
+  }
+
+  .parallax__layer--back {
+    -webkit-transform: translateZ(-300px) scale(3);
+    transform: translateZ(-300px) scale(3);
+    z-index: 3;
+  }
+
+  .parallax__layer--deep {
+    -webkit-transform: translateZ(-600px) scale(3);
+    transform: translateZ(-600px) scale(3);
+    z-index: 2;
+  }
 
 
-}
+ 
+
+  .debug {
+    position: fixed;
+    top: 0;
+    left: .5em;
+    z-index: 999;
+    background: rgba(0,0,0,.85);
+    color: #fff;
+    padding: .5em;
+    border-radius: 0 0 5px 5px;
+  }
+  .debug-on .parallax__group {
+    -webkit-transform: translate3d(800px, 0, -800px) rotateY(30deg);
+    transform: translate3d(700px, 0, -800px) rotateY(30deg);
+ }
+  .debug-on .parallax__layer {
+    box-shadow: 0 0 0 2px #000;
+    opacity: 0.9;
+  }
+  .parallax__group {
+    -webkit-transition: -webkit-transform 0.5s;
+    transition: transform 0.5s;
+  }
+
+
+ 
+
+  body, html {
+    overflow: hidden;
+  }
+
+  body {
+    font: 100%;
+  }
+
+  * {
+    margin:0;
+    padding:0;
+  }
+
+ 
+
+ 
+  .title {
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+
+
+
+ 
+
+ 
+
+  #group2 {
+    z-index: 3; 
+  }
+  #group2 .parallax__layer--back {
+    background: url("css/back.jpg");
+    background-size: 100%;
+    float: top;
+  }
+
+  #group3 {
+    z-index: 4; 
+  }
+  #group3 .parallax__layer--base {
+    float: left;
+  }
+
+
+
+ 
 
 </style>
 <title>SATYA</title>
@@ -15,67 +141,101 @@ div{
 </head>
 <body>
 
-	<div>
-	<ul class="menu">
+
+
+ <div class="parallax">
+    <div id="group2" class="parallax__group">
+      <div class="parallax__layer parallax__layer--base">
+
+  <div>
+  <ul class="menu">
   <li class="menu"><a href="#index">HOME</a></li>
   <li class="menu"><a href="#proyek">PROYEK</a></li>
   <li class="menu"><a href="#tim">TIM</a></li>
-	</ul>
-	</div>
+  </ul>
+  </div>
+
+        <div class="title">
+          <h1 class="judul" align="center" style="color: #ffffff">SATYA</h1>
+          <br>
+      <hr style="margin-left: 450px; margin-right: 450px">
+      <br>
+      <h2 class="subjudul" align="center" style="color: #ffffff">"Bahasa Tradisional yang Asik"</h2>
+
+        </div>
+      </div>
+      <div class="parallax__layer parallax__layer--back" style="width: 100%; height: 50%;" >
+      </div>
+    </div>
 
 
-	<div class="latarjudul">
-	<h1 class="judul" align="center" style="color: #ffffff">SATYA</h1>
-	<hr style="margin-left: 450px; margin-right: 450px">
-	<h2 class="subjudul" align="center" style="color: #ffffff">"Bahasa Tradisional yang Asik"</h2>
-	</div>
-	<br>
-	<br>
+    <div id="group3" class="parallax__group">
+    
 
-	<div id="proyek">
-		<p style="color: dimgrey" class="deskripsi">
-			Satya adalah aplikasi web untuk belajar daerah, satya ini terdiri dari fitur blablsadjklkj dsalkdjlkdsa jlkdsajlkdsj dslkajsdlka jdlksajdlksjldk sajldksajdlksjs dlkjdsa kjdskl jdsalkjdsalksd jalkdjs lksd jlkj sdal bebek berkepala kuda naik sofa di rumah makan sambil beli sepeda di jalan raya jalan jalan mencari bebek bertemu bebek
-		</p>
-		<br>
-	</div>
+      <div class="parallax__layer parallax__layer--base" style="background-color: #ffffff">
+         
+            <br>
+            <br>
+         <div id="proyek">
+
+    <p style="color: dimgrey" class="deskripsi">
+      Satya adalah aplikasi web untuk belajar daerah, satya ini terdiri dari fitur blablsadjklkj dsalkdjlkdsa jlkdsajlkdsj dslkajsdlka jdlksajdlksjldk sajldksajdlksjs dlkjdsa kjdskl jdsalkjdsalksd jalkdjs lksd jlkj sdal bebek berkepala kuda naik sofa di rumah makan sambil beli sepeda di jalan raya jalan jalan mencari bebek bertemu bebek
+    </p>
+    <br>
+  </div>
+
+  <br>
+  <br>
+  <br>
+  <div id="tim">
+    <h2 class="judul" align="center" style="color: #000000">Tim Kami</h2>
+    <br>
+    <h5 align="center" style="color: silver; font-weight: bold; ">Klik Foto Untuk Melihat Profil</h5>
+    <br>
+      <hr>
+
+
+    <div align="center" style="margin-left: 100px; margin-right: 100px">
+
+    <a href="profil_yudha.html">
+    <img  id="yudha" class="tombolprofil"  src="gambar/foto_yudha.jpg" alt="foto profil">
+    </a>
+    <a href="">
+    <img class="tombolprofil"  src="gambar/kosong.png" alt="foto profil">
+    </a>
+    <a href="">
+    <img class="tombolprofil"  src="gambar/kosong.png" alt="foto profil">
+    </a>
+    <a href="">
+    <img class="tombolprofil"  src="gambar/kosong.png" alt="foto profil">
+    </a>
+    <a href="">
+    <img class="tombolprofil"  src="gambar/kosong.png" alt="foto profil">
+    </a>
+    <div align="center">
+    <a href="">
+    <img class="tombolprofil"  src="gambar/kosong.png" alt="foto profil">
+    </a>
+    <a href="">
+    <img class="tombolprofil"  src="gambar/kosong.png" alt="foto profil">
+    </a>
+    <a href="">
+    <img class="tombolprofil"  src="gambar/kosong.png" alt="foto profil">
+    </a>
+    </div>
+    </div>
+    </div>
+
+      </div>
+    </div>
+
+      </div>
+
+
+  
 
 
 
-	<div id="tim">
-		<h2 class="judul" align="center" style="color: #000000">Tim Kami</h2>
-		<h5 align="center" style="color: silver; font-weight: bold; ">Klik Foto Untuk Melihat Profil</h5>
-			<hr>
 
-		<div align="center" style="margin-left: 100px; margin-right: 100px">
-
-		<a href="profil_yudha.html">
-		<img  id="yudha" class="tombolprofil"  src="gambar/foto_yudha.jpg" alt="foto profil">
-		</a>
-		<a href="">
-		<img class="tombolprofil"  src="gambar/kosong.png" alt="foto profil">
-		</a>
-		<a href="">
-		<img class="tombolprofil"  src="gambar/kosong.png" alt="foto profil">
-		</a>
-		<a href="">
-		<img class="tombolprofil"  src="gambar/kosong.png" alt="foto profil">
-		</a>
-		<a href="">
-		<img class="tombolprofil"  src="gambar/kosong.png" alt="foto profil">
-		</a>
-		<div align="center">
-		<a href="">
-		<img class="tombolprofil"  src="gambar/kosong.png" alt="foto profil">
-		</a>
-		<a href="">
-		<img class="tombolprofil"  src="gambar/kosong.png" alt="foto profil">
-		</a>
-		<a href="">
-		<img class="tombolprofil"  src="gambar/kosong.png" alt="foto profil">
- 		</a>
- 		</div>
-		<div>
-
-	</div>
 
 </body>
