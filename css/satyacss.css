@@ -1,0 +1,105 @@
+@import url(http://weloveiconfonts.com/api/?family=brandico);
+
+body {
+	background-image: url(http://i.imgur.com/bRdTIUC.jpg);
+	background-size: cover;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+h2 {
+    color: white;
+	font-family: 'Cantarell', sans-serif;
+	font-weight: 300;
+}
+
+.container {
+	min-height:100%;
+	position:relative;
+}
+
+.foto {
+	margin: 0 auto;
+	width: 200px;
+	height: 200px;
+	border-radius: 100px;
+	-webkit-border-radius: 100px;
+	-moz-border-radius: 100px;
+	background: url(http://i.imgur.com/KDzhioj.jpg?3) no-repeat;
+	}
+
+
+.center {
+  	min-height: 100%;
+  	display: flex;
+  	align-items: center;
+}
+
+.profil {
+    margin: 0 auto;
+}
+
+.katakata {
+	text-align: center;
+}
+
+.footer {
+	width:100%;
+	height:80px;
+	position:absolute;
+	bottom:0;
+	left:0;
+}
+
+[class*="brandico-"]:before {
+  font-family: 'brandico', sans-serif;
+}
+
+ul.socmed-button {
+  text-align: center;
+  margin-top: 10px;
+  -webkit-padding-start: 0px;
+  -moz-padding-start: 0px;
+  -o-padding-start: 0px;
+}
+
+ul.socmed-button li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+ul.socmed-button li a {
+  width: 50px;
+  height: 50px;
+  display: block;
+  border-radius: 50px;
+  text-decoration: none;
+  font-size: 25px;
+  line-height: 50px;
+  color: white;
+}
+
+ul.socmed-button li a.brandico-twitter-bird {
+  background-color: #4099FF;
+}
+
+ul.socmed-button li a.brandico-facebook {
+  background-color: #3B5998;
+}
+
+ul.socmed-button li a.brandico-instagram {
+  background-color: #3f729b;
+}
+
+ul.socmed-button li a.brandico-linkedin {
+  background-color: #0e76a8;
+}
+
+ul#socmed li a {
+  transition: transform 0.2s linear;
+}
+
+ul#socmed li:hover a {
+  transform: translateY(-10px);
+}
+
