@@ -3,12 +3,42 @@ h1.judul{
 		font-family: "Segoe UI",Frutiger,Frutiger Linotype,Dejavu Sans,Helvetica Neue,Arial,sans-serif;
 		font-size: 100px;
 		line-height: 25px;
+		animation-duration: 3s;
+  		animation-name: judulmasuk;
 	}
+
+
+@keyframes judulmasuk {
+  from {
+    margin-left: 100%;
+    width: 300%; 
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
 
 h2.subjudul{
 
 		font-family: "Segoe UI",Frutiger,Frutiger Linotype,Dejavu Sans,Helvetica Neue,Arial,sans-serif;
 		font-weight: normal;
+		animation-duration: 3s;
+		animation-name: submasuk;
+
+	}
+
+	@keyframes submasuk {
+		from{
+			margin-right: 0%;
+			width: 300%
+		}
+
+		to {
+			margin-right: 100%;
+			width :100%;
+		}
 	}
 
 h2.judul{
@@ -53,7 +83,7 @@ p.deskripsi {
 	padding: 50px;
 	margin-left: 100px;
 	margin-right: 100px;
-	background: #eee;
+	background: lightsteelblue;
 }
 
 hr {
@@ -68,6 +98,13 @@ hr {
 img.tombolprofil{
 	margin: 20px 20px 20px 20px;
 	width:16%;
-	height:180px;	
+	height:180px;
+	opacity: 1.0;
+    filter: alpha(opacity=100);	
 }
+
+img.tombolprofil:hover {
+ 	opacity: 0.4;
+    filter: alpha(opacity=40);
+} 
 
