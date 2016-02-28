@@ -69,7 +69,8 @@ img.fotoprofil{
 
 img.mediasosial{
 	width:42px;
-	height:42px;	
+	height:42px;
+    filter: alpha(opacity=100);	
 }
 
 table, th, td {
@@ -101,7 +102,7 @@ body {
 }
 
 
-button.mediasosial{
+button.kembali{
     background-color: dodgerblue;
     border: none;
     color: white;
