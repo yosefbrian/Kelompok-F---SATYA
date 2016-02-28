@@ -1,0 +1,170 @@
+div.foto {
+    width:300px;
+    margin: 0 50px 0 20px;
+    /*margin-left: 100px;*/
+    float: left;
+    border-radius: 50%;
+     background: #fff;
+    -moz-border-radius: 10px;
+    border-radius: 30px;
+    padding: 10px;
+    box-shadow: 0px 0px 20px #888;
+}
+div.tengah {
+    width: calc(100% - 400px);
+    float: right;
+    margin-top: 0px;
+    margin: 0px;
+
+}
+.header{
+     background-color: #00cc99;
+     margin: 0px;
+
+}
+.header2{
+     background-color: #00cc99;
+     font-size: 20px;
+     margin: 0px;
+
+}
+
+header{
+    background: black;
+    width: 100%;
+    top: 0;
+    position: fixed;
+    overflow: hidden;
+}
+
+h1 {
+    font-family: "Segoe UI",Frutiger,Frutiger Linotype,Dejavu Sans,Helvetica Neue,Arial,sans-serif;
+	font-size: 45px;
+	font-style: bold;
+	font-variant: normal;
+	text-align:center;
+	margin-top: 5px;
+}
+
+hr {
+    display: block;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-style: inset;
+    border-width: 1px;
+    color:#DCDCDC;
+} 
+div.hello{
+    font-size: 45px;
+    margin: auto;
+    height: 20%;
+    line-height: 0px;
+    background-color: #e0e0d9;
+}
+p.aboutme{
+    margin: 0px;
+    font-size: 25px;
+    line-height: 0px;
+    font-style: bold;
+}
+h1.tebal {
+    font-weight: bold;
+    line-height: 100px;
+    margin: 0px;
+     /*background-color: lightblue;*/
+}
+
+h1.biasa {
+    font-weight: normal;
+}
+
+h3.tebal {
+    font-weight: bold;
+    line-height: 5px;
+    background-color: lightblue;
+    margin: 0px 0px;
+	font-family: "Segoe UI",Frutiger,Frutiger Linotype,Dejavu Sans,Helvetica Neue,Arial,sans-serif;
+	font-size: 25px;
+	font-style: normal;
+	font-variant: normal;
+}
+
+
+p.biasa {
+    font-weight: normal;
+}
+
+p {
+	font-family: "Segoe UI",Frutiger,Frutiger Linotype,Dejavu Sans,Helvetica Neue,Arial,sans-serif;
+	font-size: 18px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 25px;
+}
+
+img.fotoprofil{
+	width:446px;
+	height:370px;
+    margin: 0px;	
+}
+
+img.mediasosial{
+	width:42px;
+	height:42px;	
+}
+img.tombolprofil{
+    margin-right: 100px;
+    border-radius: 30px;
+
+}
+
+table, th, td {
+    border : solid 1px  steelblue; 
+    border-collapse: collapse;
+    margin: 0px;
+}
+th, td {
+    padding: 10px;
+    }
+
+table.biodata{
+	width:calc(100% - 100px);
+	border: 1px;
+	background-color: #eee;
+    margin: 0px;
+}
+
+tr:nth-child(even) {
+    background-color: #fff;
+    padding: 12px;
+}
+
+td{
+	font-family: "Segoe UI",Frutiger,Frutiger Linotype,Dejavu Sans,Helvetica Neue,Arial,sans-serif;
+	font-size: 18px;
+}
+
+body {
+    background-color: #e0e0d1;
+}
+
+div.desc {
+    font-family: "Segoe UI",Frutiger,Frutiger Linotype,Dejavu Sans,Helvetica Neue,Arial,sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-variant: normal;
+    text-align:center;
+    margin-top: 5px;
+
+}
+div.desc2 {
+    padding: 15px;
+    text-align: center;
+  }
+div.bio{
+    margin-top: 0px;
+}  
+div.tables{
+    margin: 0px 110px 50px 300px;
+}
