@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
 body{
 	width: 100%;
 	margin: 0 auto; 
@@ -31,7 +33,7 @@ header{
 }
 
 #kembali{
-	font-family: "Montserrat";
+	font-family: 'Montserrat', sans-serif;
 	color: white;
 	float: right;
 	margin: 0 auto;
@@ -83,7 +85,7 @@ tr, td{
 }
 
 .socmed, .container-socmed{
-	font-family: "Montserrat";
+	font-family: 'Montserrat', sans-serif;
 	color: black;
 	display: flex;
 	margin-right: auto;
