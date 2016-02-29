@@ -15,15 +15,29 @@ h2, h4  {
 }
 
 p {
-	color: blue;
+	color: white;
 	font-family: 'Cantarell', sans-serif;
-	font-weight: 700;
+	font-weight: 300;
 	margin-left: 10px;
 }
 
+button {
+	background-color: white;
+    border: none;
+    color: aqua;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+hr {
+	border-width: 1px;
+}
+
 .side {
-	background: #e6e6e6;
-	opacity: 0.4;
+	background-color: rgba(0,0,0,0.5);
 	position: absolute;
 	height: 100%;
 	width: 250px;
@@ -71,31 +85,31 @@ p {
 }
 
 [class*="brandico-"]:before {
-  font-family: 'brandico', sans-serif;
+    font-family: 'brandico', sans-serif;
 }
 
 ul.socmed-button {
-  text-align: center;
-  margin-top: 10px;
-  -webkit-padding-start: 0px;
-  -moz-padding-start: 0px;
-  -o-padding-start: 0px;
+  	text-align: center;
+  	margin-top: 10px;
+    -webkit-padding-start: 0px;
+    -moz-padding-start: 0px;
+    -o-padding-start: 0px;
 }
 
 ul.socmed-button li {
-  display: inline-block;
-  margin: 0 10px;
+    display: inline-block;
+    margin: 0 10px;
 }
 
 ul.socmed-button li a {
-  width: 50px;
-  height: 50px;
-  display: block;
-  border-radius: 50px;
-  text-decoration: none;
-  font-size: 25px;
-  line-height: 50px;
-  color: white;
+    width: 50px;
+    height: 50px;
+    display: block;
+    border-radius: 50px;
+    text-decoration: none;
+    font-size: 25px;
+    line-height: 50px;
+    color: white;
 }
 
 ul.socmed-button li a.brandico-twitter-bird {
