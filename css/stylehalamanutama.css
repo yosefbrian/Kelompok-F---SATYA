@@ -109,7 +109,7 @@ hr {
 
 img.tombolprofil{
 
-
+  border-radius: 50%;
 	margin: 20px 20px 20px 20px;
 	width:16%;
 	height:180px;
