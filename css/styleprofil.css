@@ -1,3 +1,31 @@
+ul.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li.menu {
+    float: left;
+}
+
+li.menu a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    font-family: "Segoe UI",Frutiger,Frutiger Linotype,Dejavu Sans,Helvetica Neue,Arial,sans-serif;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li.menu a:hover {
+    background-color: #4682B4;
+}
+
+
+
+
 div.kiri {
     width:500px;
     margin: 0 0 0 100px;

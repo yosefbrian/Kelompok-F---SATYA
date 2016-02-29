@@ -257,7 +257,7 @@ li.menu a:hover {
     z-index: 3; 
   }
   #group1 .parallax__layer--back {
-    background: url("css/back.jpg");
+    background: url(back.jpg);
     background-size: 100%;
     float: top;
   }
