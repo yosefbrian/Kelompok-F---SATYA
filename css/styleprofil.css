@@ -90,7 +90,19 @@ p {
 	line-height: 25px;
 }
 
+h2{
+    font-family: "Segoe UI Light",Frutiger,Frutiger Linotype,Dejavu Sans,Helvetica Neue,Arial,sans-serif;
+}
+
+
 img.fotoprofil{
+      border-radius: 50%;
+    width:200px;
+    height:200px;   
+}
+
+
+img.fotodetail{
 	width:446px;
 	height:370px;	
 }
