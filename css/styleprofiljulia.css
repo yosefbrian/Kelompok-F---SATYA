@@ -6,22 +6,21 @@
   }
 
 #background-pjw{
-    background-color: #F7F9F9;
-    width: 500px;
-    height: 420px;
-    border-radius: 0px;
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    margin: auto;
-    z-index: -2;
-    -webkit-box-shadow: 10px 10px 54px 2px rgba(0,0,0,0.19);
-    -moz-box-shadow: 10px 10px 54px 2px rgba(0,0,0,0.19);
-    box-shadow: 10px 10px 54px 2px rgba(0,0,0,0.19);
+  background-color: #F7F9F9;
+  width: 500px;
+  height: 420px;
+  border-radius: 0px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  z-index: -2;
+-webkit-box-shadow: 10px 10px 54px 2px rgba(0,0,0,0.19);
+-moz-box-shadow: 10px 10px 54px 2px rgba(0,0,0,0.19);
+box-shadow: 10px 10px 54px 2px rgba(0,0,0,0.19);
 }
-
 
 #header-pjw{
   width:500px;
@@ -56,6 +55,7 @@
   margin-top: -10px;
   text-align: center;
 }
+
 
 #facebook-pjw{
   color: #848482;
