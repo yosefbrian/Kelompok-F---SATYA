@@ -48,3 +48,42 @@
   margin-top: 0px;
   text-align: center;
 }
+
+.nim{
+  font-family: "Segoe UI Light" ;
+  font-size: 15px;
+  color:#C0C0C2;
+  margin-top: -10px;
+  text-align: center;
+}
+
+#facebook-pjw{
+  color: #848482;
+  font-size: 25px;
+  margin: auto;
+}
+.verticalline{
+  padding-left: 5px;
+  border-left: 1px solid #C1C1C3;
+  font-size:10px;
+}
+#instagram-pjw{
+  color: #848482; font-size: 25px; margin: auto;
+}
+.verticalline{25px
+  padding-left: 5px;
+  border-left: 1px solid #A6A5A3;
+  font-size:10px;
+}
+#twitter-pjw{
+  color:#848482 ; font-size: 25px; margin: auto;
+}
+.verticalline{
+  padding-left: 5px;
+  border-left: 1px solid #A6A5A3;
+  font-size:10px;
+  text-align: center;
+}
+#linkedin-pjw{
+  color:#848482 ; font-size: 25px; margin: auto;
+}
