@@ -87,3 +87,57 @@
 #linkedin-pjw{
   color:#848482 ; font-size: 25px; margin: auto;
 }
+
+.logo-facebook-pjw{
+  padding-top: 40px;
+  padding-left: 55px;
+  padding-right: 46px;
+  text-decoration: none;
+}
+.logo-instagram-pjw{
+  padding-top: 5px;
+  padding-left: 46px;
+  padding-right: 46px;
+  text-decoration: none;
+}
+.logo-twitter-pjw{
+  padding-top: 5px;
+  padding-left: 46px;
+  padding-right: 46px;
+  text-decoration: none;
+}
+.logo-linkedin-pjw{
+  padding-top: 5px;
+  padding-left: 46px;
+  padding-right: 55px;
+  text-decoration: none;
+}
+
+.labelfacebook{
+  font-family: "Segoe UI Light" ;
+  font-size: 12px;
+  color:#848482;
+  padding-left: 40px;
+  padding-right: 47px;
+}
+.labelinstagram{
+  font-family: "Segoe UI Light" ;
+  font-size: 12px;
+  color:#848482;
+  padding-left: 22px;
+  padding-right: 47px;
+}
+.labeltwitter{
+  font-family: "Segoe UI Light" ;
+  font-size: 12px;
+  color:#848482;
+  padding-left: 33px;
+  padding-right: 47px;
+}
+.labellinkedin{
+  font-family: "Segoe UI Light" ;
+  font-size: 12px;
+  color:#848482;
+  padding-left: 41px;
+  padding-right: 47px;
+}
