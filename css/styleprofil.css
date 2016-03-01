@@ -1,3 +1,33 @@
+  
+
+div.profil{
+        padding: 7% 0;
+        margin-left: 100px;
+        margin-right: 100px;
+        margin-top: 20px;
+        background-color: #ffffff;
+    }
+
+
+.tentangsaya {
+    font-family: "Segoe UI Light",Frutiger,Frutiger Linotype,Dejavu Sans,Helvetica Neue,Arial,sans-serif;
+    font-size: 13px;
+    font-weight: lighter;
+  text-decoration: none;
+  background-color: indianred;
+  color: white;
+  padding: 9px 28px 9px 28px;
+  border-top: 1px solid #CCCCCC;
+  border-right: 1px solid #333333;
+  border-bottom: 1px solid #333333;
+  border-left: 1px solid #CCCCCC;
+}
+
+.tentangsaya:hover{
+    background-color: firebrick;
+}
+
+
 ul.menu {
     list-style-type: none;
     margin: 0;

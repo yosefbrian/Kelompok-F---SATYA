@@ -99,7 +99,7 @@ background: url(gambar/back.jpg);
 }*/
 
 .deskripsiproyek{
-	font-family: "Segoe UI Light" ;
+	font-family: "Segoe UI Light",Frutiger,Frutiger Linotype,Dejavu Sans,Helvetica Neue,Arial,sans-serif;
   font-size: 20px;
   color:black;
   margin-top: -10px;
@@ -118,14 +118,14 @@ background: url(gambar/back.jpg);
 	text-align: center;
 	font-size: 50px;
 	color: #000000;
-	font-family: "Segoe UI Light";
+	font-family: "Segoe UI Light",Frutiger,Frutiger Linotype,Dejavu Sans,Helvetica Neue,Arial,sans-serif;
 }
 
 .klik{
 	text-align: center;
 	font-size: 20px;
 	color: grey;
-	font-family: "Segoe UI Light";
+	font-family: "Segoe UI Light",Frutiger,Frutiger Linotype,Dejavu Sans,Helvetica Neue,Arial,sans-serif;
 	margin-bottom: 30px;
 }
 
