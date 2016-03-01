@@ -107,13 +107,14 @@ background: url(gambar/back.jpg);
 	/*background: lightsteelblue;*/
 	padding-left: 300px;
 	padding-right: 300px;
+	text-indent: 50px;
 }
 
 .line{
-	color: grey;
-	line-height: 5px;
+	border-color: lightblue;
 }
 .tim{
+	margin-top: 50px;
 	text-align: center;
 	font-size: 50px;
 	color: #000000;
@@ -125,6 +126,7 @@ background: url(gambar/back.jpg);
 	font-size: 20px;
 	color: grey;
 	font-family: "Segoe UI Light";
+	margin-bottom: 30px;
 }
 
 hr {
