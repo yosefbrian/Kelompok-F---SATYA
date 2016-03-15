@@ -3,13 +3,13 @@
 body{
 	width: 100%;
 	margin: 0 auto; 
-	/*background: white;*/
+	background-size: cover;
 	display: block;
 }
 
 .container{
 	width: 100%;
-	margin-top: 90px;
+	margin-top: 80px;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -19,7 +19,7 @@ body{
 }
 
 header{
-	background: black;
+	background: transparent;
 	width: 100%;
 	top: 0;
 	position: fixed;
@@ -32,6 +32,7 @@ header{
 	float: left;
 }
 
+#judul{font-family: 'Montserrat', sans-serif;}
 #kembali{
 	font-family: 'Montserrat', sans-serif;
 	color: white;
@@ -57,12 +58,14 @@ a{
 img.fotoprofil{
 	display: block;
 	height: 200px; 
-	width: 150px;
+	width: 200px;
 	margin-left: auto;
 	margin-right: auto;
+	border-radius: 50%;
 }
 
 .biodata {
+	color: white;
 	margin-top: 15px;
 	margin-left: auto;
 	margin-right: auto;
@@ -77,31 +80,33 @@ tr, td{
 
 .description{
 	font-family: "helvetica";
+	color: white;
 	text-align: center;
 	line-height: 1.5em;
 	margin-right: auto;
 	margin-left: auto;
 	display: block;
+	padding: 0 10% 0 10%;
 }
 
 .socmed, .container-socmed{
 	font-family: 'Montserrat', sans-serif;
-	color: black;
+	color: white;
 	display: flex;
 	margin-right: auto;
 	margin-left: auto;
 }
 
 #fb a, #ig a, #li a{
-	border:3px solid black; 
+	border:3px solid white; 
 	padding:10px; 
-	color: black;
+	color: white;
 	margin: 10px;
 }
 
 #fb a:hover, #ig a:hover, #li a:hover{
-	background: black;
-	color: white;
+	background: white;
+	color: black;
 }
 
 /*.footer{
