@@ -8,6 +8,16 @@ h1.judul{
 	}
 
 
+a.mulai {
+  font-family: "Segoe UI",Frutiger,Frutiger Linotype,Dejavu Sans,Helvetica Neue,Arial,sans-serif;
+    background-color: #f44336;
+    color: white;
+    padding: 14px 40px;
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block;
+}
+
 @keyframes judulmasuk {
   from {
     margin-left: 100%;
