@@ -15,6 +15,11 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+
+Route::get('/pertanyaanjson','kuisjsonController@getPertanyaan');
+
 Route::auth();
+
+
 
 Route::get('/home', 'HomeController@index');
