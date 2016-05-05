@@ -13,4 +13,12 @@ class Pertanyaan extends Model
 	{
 		return $this->belongsTo('App\Daftarkuis','kuis_id');
 	}
+	public function level()
+	{
+		return $this->belongsTo('App\Daftarkuis','level');
+	}
+	public function bahasa()
+	{
+		return $this->belongsTo('App\Daftarkuis','bahasa');
+	}
 }

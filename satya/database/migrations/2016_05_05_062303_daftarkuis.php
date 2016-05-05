@@ -17,6 +17,8 @@ class Daftarkuis extends Migration
             $table->string('name')->unique();
             $table->string('level');
             $table->string('bahasa');
+            $table->integer('poin');
+            $table->timestamps();
         });
     }
 

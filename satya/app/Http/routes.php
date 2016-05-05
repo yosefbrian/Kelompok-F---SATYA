@@ -23,3 +23,9 @@ Route::auth();
 
 
 Route::get('/home', 'HomeController@index');
+
+Route::group(['prefix' => 'admin','middleware' => 'role:admin'], function()
+{
+	Route::get('/buatkuis', 'AdminController@index');
+	Route::post('/buatkuis', 'AdminController@buat');
+});

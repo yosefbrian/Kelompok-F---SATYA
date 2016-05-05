@@ -16,7 +16,10 @@ class Pertanyaan extends Migration
             $table->increments('id');
             $table->string('pertanyaan');
             $table->string('jawaban');
+            $table->string('gambar')->nullable();
             $table->integer('kuis_id')->unsigned()->index();
+            $table->string('level')->index();
+            $table->string('bahasa')->index();
             $table->foreign('kuis_id')->references('id')->on('daftarkuis')->onDelete('cascade');
         });
     }
