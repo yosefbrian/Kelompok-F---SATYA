@@ -51,5 +51,13 @@ class User extends Model implements AuthenticatableContract, CanResetPasswordCon
         return false;
     }
 
+    public function profil()
+    {
+        return $this->hasOne('App\Profil','user_id');
+    }
 
+    public function status()
+    {
+        return $this->hasMany('App\Status','user_id');
+    }
 }
