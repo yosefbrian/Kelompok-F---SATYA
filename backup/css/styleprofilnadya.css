@@ -1,0 +1,120 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
+body{
+	width: 100%;
+	margin: 0 auto; 
+	background-size: cover;
+	display: block;
+}
+
+.container{
+	width: 100%;
+	margin-top: 80px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.container-header{
+	width: 960px;
+	margin: auto;	
+}
+
+header{
+	background: transparent;
+	width: 100%;
+	top: 0;
+	position: fixed;
+	overflow: hidden;
+}
+
+.logo{
+	font-family: "helvetica";
+	color: white;
+	float: left;
+}
+
+#judul{font-family: 'Montserrat', sans-serif;}
+#kembali{
+	font-family: 'Montserrat', sans-serif;
+	color: white;
+	float: right;
+	margin: 0 auto;
+}
+
+#kembali a:hover{
+	color: #1C81AD;
+}
+
+a{
+	text-decoration: none;
+}
+
+.profil{
+	font-family: "helvetica";
+	margin-left: auto;
+	margin-right: auto;
+	/*display: flex;*/
+}
+
+img.fotoprofil{
+	display: block;
+	height: 200px; 
+	width: 200px;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 50%;
+}
+
+.biodata {
+	color: white;
+	margin-top: 15px;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: "helvetica";
+	text-align: left;
+}
+
+tr, td{
+	padding-left: 15px;
+	padding-bottom: 15px;
+}
+
+.description{
+	font-family: "helvetica";
+	color: white;
+	text-align: center;
+	line-height: 1.5em;
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+	padding: 0 10% 0 10%;
+}
+
+.socmed, .container-socmed{
+	font-family: 'Montserrat', sans-serif;
+	color: white;
+	display: flex;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#fb a, #ig a, #li a{
+	border:3px solid white; 
+	padding:10px; 
+	color: white;
+	margin: 10px;
+}
+
+#fb a:hover, #ig a:hover, #li a:hover{
+	background: white;
+	color: black;
+}
+
+/*.footer{
+	font-family: "helvetica";
+	font-size: 10px;
+	text-align:center;
+	background-color:black;
+    color:white;
+   	padding:5px;
+   	margin-top: 20px;	
+}*/
